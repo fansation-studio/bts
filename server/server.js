@@ -12,8 +12,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, '..', 'client', 'public')));
 
-app.use('/api', require('./api'));
-
 // Error Catching Endware
 app.use((err, req, res, next) => {
     console.error(err, typeof next);
