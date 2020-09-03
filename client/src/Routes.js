@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { Home, About, Contact } from './components';
+import { Home, About, Contact } from './pages';
 
 export default function Routes() {
     return (

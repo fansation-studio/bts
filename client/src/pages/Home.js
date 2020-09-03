@@ -4,11 +4,9 @@ export default function Home () {
     return (
         <div className="home-content">
             <div className="home-header">
-                <text className="text-logo">
-                    Welcome to
-                    <br />
-                    Fansation Studio
-                </text>
+                <article className="text">
+                    <h1>Welcome to Sinarae</h1>
+                </article>
             </div>
         </div>
     )

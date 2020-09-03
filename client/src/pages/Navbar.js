@@ -17,7 +17,7 @@ export default function Navbar(props) {
          <div className="navbar-container">
              <div>
                  <Link to="/" className={activeLink === '/' ? 'selected' : "navbar-link-content"} onClick={() => handleClick('/')}>
-                     Home
+                     Welcome
                  </Link>
              </div>
              <div>
